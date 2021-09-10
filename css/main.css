@@ -87,6 +87,233 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+   /*-------------------- Base Header - Footer Styles --------------------*/
+
+   header,
+   footer {
+
+   }
+
+   /* Header Styles */
+
+   header {
+
+   }
+   header .content-wrapper {
+
+   }
+   header img {
+
+   }
+   .header-divider {
+
+   }
+   header nav {
+
+   }
+
+   /*-------------------- Mobile Styles - Homepage --------------------*/
+   h1,
+   h2,
+   h3,
+   h4,
+   p {
+
+   }
+
+   .hero-area {
+
+   }
+
+   .content-wrapper {
+
+   }
+
+   .hero-area h1 {
+
+   }
+
+   aside {
+
+   }
+
+   aside .content-wrapper {
+
+   }
+
+   aside .form-description {
+
+   }
+
+   aside h3 {
+
+   }
+
+   aside p {
+
+   }
+
+   aside .form {
+
+   }
+
+   .features {
+
+   }
+
+   .features .content-wrapper {
+
+   }
+
+   .features-items {
+
+   }
+
+   .features-items .article {
+
+   }
+
+   .fontawesome-icon {
+
+   }
+
+   .features-item-description {
+
+   }
+
+   .reviews {
+
+   }
+
+   .reviews .content-wrapper {
+
+   }
+
+   .reviews h2 {
+
+   }
+
+   .reviews article {
+
+   }
+   .reviews article h3 {
+
+   }
+
+   .reviews article p {
+
+   }
+
+   /*-------------------- Mobile Styles - About --------------------*/
+   .mission {
+
+   }
+
+   .mission .content-wrapper {
+
+   }
+
+   .mission-content {
+
+   }
+
+   .mission-content p {
+
+   }
+   .map {
+
+   }
+
+   .contact-section {
+
+   }
+
+   .contact-section h2 {
+
+   }
+   .contact-section .content-wrapper {
+
+   }
+
+   .contact-content {
+
+   }
+
+   .contact-content h4 {
+
+   }
+
+   .contact-content p {
+
+   }
+
+   address {
+
+   }
+
+   /*-------------------- Mobile Styles - FAQ --------------------*/
+
+   .faq {
+
+   }
+
+   .faq .content-wrapper {
+
+   }
+
+   .faq-content {
+
+   }
+
+   .faq-content h4 {
+
+   }
+
+   .faq-content p {
+
+   }
+   
+
+   /* Footer */
+
+   footer {
+
+   }
+
+   footer .content-wrapper {
+
+   }
+
+   .footer-content {
+
+   }
+
+   .contact {
+
+   }
+   .contact h4 {
+
+   }
+
+   address p {
+
+   }
+
+   .social {
+
+   }
+
+   .social-icons {
+
+   }
+
+   .copyright {
+
+   }
+   .copyright p {
+
+   }
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -260,4 +487,3 @@ textarea {
     page-break-after: avoid;
   }
 }
-
