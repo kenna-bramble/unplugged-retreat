@@ -199,6 +199,12 @@ textarea {
      flex-direction: column;
      color: #ffffff;
    }
+   footer .footer-content{
+     display: flex;
+     flex-flow: column wrap;
+     justify-content: center;
+     align-items: center;
+   }
    footer .content-wrapper {
      width: 55%;
      margin: 50px 0;
@@ -214,11 +220,20 @@ textarea {
      display: flex;
      justify-content: center;
      align-items: center;
+     background: #527158;
+     width: 40px;
+     height: 40px;
+     border-radius: 40px;
    }
    footer .social-icons {
      display: flex;
      justify-content: space-around;
      align-items: center;
+     flex-flow: row wrap;
+   }
+   footer .social {
+     width: 66%;
+
    }
    footer .copyright {
      margin: 20px 0;
@@ -302,7 +317,7 @@ textarea {
      color: #e1e2ea;
      text-align: center;
    }
-   
+
    .reviews {
      background-color: #2a423a;
      display: flex;
@@ -521,7 +536,7 @@ textarea {
     width: 65%;
     margin: 100px 0px;
   }
-  .footer-content {
+  footer .footer-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -536,6 +551,9 @@ textarea {
   }
   footer p {
     line-height: 1.285;
+  }
+  footer .social {
+    width: 37%;
   }
   footer .copyright {
     width: 100%;
