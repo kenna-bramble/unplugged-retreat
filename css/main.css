@@ -280,6 +280,10 @@ textarea {
      background: url('../img/features-bkg.jpg') center no-repeat;
      background-size: cover;
    }
+   .features i {
+     font-size: 3.75em;
+     margin-bottom: 40px;
+   }
    .features h2 {
      margin-bottom: 60px;
    }
@@ -298,6 +302,7 @@ textarea {
      color: #e1e2ea;
      text-align: center;
    }
+   
    .reviews {
      background-color: #2a423a;
      display: flex;
