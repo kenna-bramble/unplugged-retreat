@@ -87,7 +87,7 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-   /* General Styles */
+   /* Global Styles */
    html {
      font-size: 16px;
    }
@@ -122,10 +122,10 @@ textarea {
      line-height: 1.285;
    }
    img {
-
+     width: 100%;
    }
    figure {
-
+     margin: 0;
    }
    address {
      font-style: normal;
@@ -152,7 +152,13 @@ textarea {
 
    header {
      padding: 15px 0;
-
+   }
+   header figure {
+     width: 60%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-flow: row wrap;
    }
    header .content-wrapper {
      display: flex;
@@ -181,6 +187,7 @@ textarea {
      display: flex;
      justify-content: space-around;
      width: 100%;
+     padding: 0;
    }
    header nav ul li {
      font-size: 1.125em;
@@ -225,6 +232,9 @@ textarea {
      display: flex;
      justify-content: center;
      flex-flow: row wrap;
+     background: url('../img/hero-bkg.jpg') center no-repeat #333;
+     background-size: cover;
+     min-height: 500px;
    }
    .hero-area h1 {
      font-size: 2.25em;
@@ -267,6 +277,8 @@ textarea {
      display: flex;
      justify-content: center;
      flex-flow: row wrap;
+     background: url('../img/features-bkg.jpg') center no-repeat;
+     background-size: cover;
    }
    .features h2 {
      margin-bottom: 60px;
@@ -290,6 +302,13 @@ textarea {
      background-color: #2a423a;
      display: flex;
      justify-content: center;
+     flex-flow: row wrap;
+   }
+   .reviews figure {
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
      flex-flow: row wrap;
    }
    .reviews h2 {
@@ -463,6 +482,9 @@ textarea {
     justify-content: space-around;
     padding: 33px 0;
   }
+  header figure {
+    width: 30%;
+  }
   header .content-wrapper {
     width: 100%;
     justify-content: space-between;
@@ -472,6 +494,9 @@ textarea {
   }
   header nav ul {
     justify-content: space-between;
+  }
+  header nav ul li {
+    font-size: 1em;
   }
   .header-divider {
     display: none;
@@ -499,7 +524,9 @@ textarea {
   footer .copyright {
     width: 100%;
   }
-
+  .hero-area {
+    min-height: 600px;
+  }
   .hero-area h1 {
     font-size: 3em;
     line-height: 1;
@@ -538,6 +565,11 @@ textarea {
     display: flex;
     justify-content: space-between;
   }
+  .reviews article figure,
+  .reviews article div {
+    width: 49%;
+  }
+
   .reviews h2 {
     width: 85%;
   }
@@ -545,9 +577,7 @@ textarea {
     width: 75%;
     margin: 0;
   }
-  .reviews article div {
-    width: 49%;
-  }
+
 
   /*About Page*/
   .mission-content {
@@ -592,10 +622,17 @@ textarea {
 
   .content-wrapper {
     max-width: 960px;
+    margin: 50px 0;
   }
 
   header {
     padding: 15px 0;
+  }
+  header figure {
+    width: 30%;
+  }
+  header nav ul li {
+    font-size: 1.125em;
   }
   h2 {
     font-size: 2.25em;
@@ -611,7 +648,7 @@ textarea {
 
   /* Hero */
   .hero-area h1 {
-    width: 60%;
+    width: 80%;
     font-size: 3.75em;
   }
 
@@ -639,6 +676,7 @@ textarea {
   .reviews h2 {
     padding-bottom: 50px;
   }
+
   .reviews article div {
     width: 42%;
   }
