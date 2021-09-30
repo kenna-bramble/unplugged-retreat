@@ -96,6 +96,7 @@ textarea {
      font-size: 1em;
      text-align: left;
      color: #E2E3ED;
+     background-color: #202322;
    }
    ul,
    ol {
@@ -144,7 +145,7 @@ textarea {
      justify-content: center;
      align-items: center;
      flex-flow: row wrap;
-     background-color: #202322;
+
    }
 
 
